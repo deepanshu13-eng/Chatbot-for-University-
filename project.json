@@ -1,0 +1,118 @@
+{"intents": [
+	     {"tag":"greeting",
+         "patterns":["hi","how are you","Is anyone there?","Hello","good day","whats up"],
+         "responses":["hello","good to see you again!","Hi there,how can I help?"],
+         "context_set": ""
+
+        },
+        {"tag": "goodbye",
+         "patterns":["cya","see you later","goodbye","I am leaving","Have a good day"],
+         "responses":["sad to see you go","Talk to you later","goodbye!"],
+         "context_set": ""
+        },
+        
+        {"tag": "name",
+         "patterns": ["what is your name","what should I call you","whats your name?","who are you"],
+         "responses":["you can call me chatbot. I can give you all the information about amity university ","I'm chatbot! I can give you all the information about amity university.","I'm chatbot. I can give you all the information about amity university"],
+         "context_set": ""
+        },
+        {"tag": "chancellor",
+        "patterns": ["about atul chauhan", "who is atul chauhan?", "tell me about atul chauhan","tell me about amity chancellor"],
+        "responses":["Mr. Atul Chauhan has been the President of the Amity Education Group. He has completed his engineering from University College London. he holds an Accounting & Finance degree from the London School of Economics and Political Science and a degree in International Business from Frankfurt International School."],
+        "context_set": ""
+        },
+        {"tag": "vice chancellor",
+        "patterns": ["about p.b sharma", "who is the vice chancellor of amity gurgaon?", "who is p.b sharma","about vice chancellor of amiity gurgaon","tell me something about p.b sharma","tell me something about vice chancellor of amity gurgaon"],
+        "responses":["Pritam Babu Sharma is an Indian academician and Vice Chancellor of Amity University, Gurgaon and ex Vice Chancellor of Delhi Technological University. Currently he is heading the Association of Indian Universities as the President. He has a career spanning 44 years of experience in teaching and research, which includes 12 years at IIT Delhi, where he was a Professor of mechanical engineering before taking over as Principal of Delhi Technological University in 1990. He led Delhi College of Engineering till 2009, and was then appointed the founder Vice Chancellor of Delhi Technological University. He is also the founding Vice Chancellor of Rajiv Gandhi Technical University, Bhopal, Madhya Pradesh."],
+        "context_set": ""
+        },
+        {"tag": "campus",
+         "patterns":["tell me something about amity gurgaon campus","how is life at amity gurgaon campus","about amity gurgaon campus","campus life at amity gurgaon"],
+         "responses":["Amity University, Gurgaon, also known as Amity Education Valley, is located in Manesar. The campus is spread over 110 acres of land and encompasses student hostels, cafeteria, library, multiple auditoriums and sports grounds. It is a Wi-Fi smart campus, with internet facility in the hostels as well."],
+         "context_set": ""
+        },
+        {"tag": "food",
+         "patterns": ["what type of food we can find in university", "name all the food shops in this campus","which food shop is the most liked by the students"],
+         "responses":["At amity university you will find all variety of food as here in amity students from all over the states of India and also the International students come here to pursue there higher studies, So thats why amity takes care of all students. If you are a south Indian food lover the you can go to Anna canteen or if you are a chinese food lover the you can go to hash tag or if you want to drink hot coffee with some snacks the do visit cafe coffee day or if you want to try some shakes the go to juice corner or if you want to eat simple and healthy food the you can visit back mess or hostel mess. Out of all these students preffer to go to hashtag, anna canteen, back mess and juice corner."],
+         "context_set": ""
+         },
+        {"tag": "location",
+         "patterns": ["where we can find food court", "please tell me location of food court", "guide me the way to food court" ,"food court location", "help me to reach food court"],
+         "responses": ["you can find food court in A block, in B block, at the back side of c block or near hostel area"],
+         "context_set": ""
+        },
+        {"tag": "events",
+         "patterns": ["In what all events students can engage themselves at amity", "what all events happens here at amity", "In which all events students can engage themselves at amity" , "tell me name of events which you to happen here" ],
+         "responses": ["Here in amity we use to organize many events ever year like here we have a event known as sangathan for sports lovers , we have amifest , we use to conduct robothon and hackathons every year so that tech lovers can show there talent and we also have other events conducted by different different clubs and societies to spread awareness among the youth and the society "],
+         "context_set": ""
+        },
+        {"tag" : "computer",
+         "patterns" : ["what all will students learn in b.tech computer science?", "what all topics are been taught in computer science", "what subjects does computer science offer"],
+         "responses": ["In computer science students will learn about Artificial Intelligence, c programming, c + + programming, java programming,python programming and various other topics which will help our students to become a good computer science engineer."],
+         "context_set": ""
+        },
+        {"tag" : "ece",
+         "patterns" : ["what is the importance of ece in b.tech", "what is the use of ece in b.tech", "why should my student opt for ece", "what is the future of b.tech ece"],
+         "responses": ["electronics and communication engineering is an emerging stream that offers firm promises to lend your career an edge. Studying this domain of engineering would mean mastering the skills related to electrical engineering as well as having an insight into the world of computer software and hardware. With the modern world gradually moving towards technology-driven operations, this amalgamation of electrical engineering with computer science would be an effective way out. It will provide your student strong employment potential and imcome potential."],
+         "context_set": ""
+        },
+        {"tag" : "ece topics",
+         "patterns" : ["what all topics will students study in ece", "what are the topics covered in b.tech ece", "what all will students learn in b.tech ece"],
+         "responses" : ["in electronics and communication engineering students will get a brief knowledge about signal processing, telecommunications engineering, control engineering, instrumentation engineering, computer engineer, vlsi design engineering and lot more which will help our students to become a good electronics and communication engineer."],
+         "context_set" : ""
+        },
+        {"tag" : "mechanical",
+         "patterns" : ["what is the scope of mechanical engineering in future", "what all opportunities can be achieved in mechanical engineering", "what is the use of mechanical engineering in b.tech", "what products a mechanical engineer use to make"],
+         "responses" : ["mechanical engineering is a ever green branch, mechanical engineers can work in railways industry, aerospace industry, automobile industry, chemical manufacturing plants, oil exploration, research and development sector of different different industries and many other sectors, so from this you can see there is how much big scope for mechanical engineers."],
+         "context_set" : ""
+        },
+        {"tag" : "mechanical topics",
+         "patterns" : ["what all topics will be covered in mechanical engineering", "what are the topic covered in mechanical engineering", "what all will students learn in mechanical engineering"],
+         "responses" : ["In mechanical engineering students use to study about strength of material, thermodynamics, materials engineering, composites, statics and dynamics, kinematics of engineering, heating and cooling systems, product lifecycle, product design and lot more."],
+         " context_set" : ""
+        }, 
+        {"tag" : "civil",
+         "patterns" : ["what is the scope of civil engineering in future", "what all opportunity will a civil engineer get", "what is the use of civil engineer in b.tech", "what things a civil engineer use to make"],
+         "responses" : ["civil engineering is filled up of lot of opportunity for a student. A civil engineer designs and oversees the construction of public works, such as roads, bridges, dams, tunnels, buildings, airports, water and sewage systems, and other large infrastructure projects."],
+         "context_set" : ""
+        },
+        {"tag" : "civil topics",
+         "patterns" : ["what all topics will be covered in civil engineering","what all a student will learn in civil Engineering", "tell me topics covered in civil engineering"],
+         "responses" : ["In civil Engineering students use to study about Surveying in Civil Engineering, Strength of Material or Solid Mechanics, Importance of Solid Mechanics of Strength of Materials in Civil Engineering, Importance of Building Material and Construction Technology, Geology in Civil Engineering, Concrete Technology in Civil Engineering, Structural Analysis and lot more."],
+         "context_set" : ""
+        },
+        {"tag" : "biomedical",
+         "patterns": ["what is biomedical engineering", "what is the scope of biomedical engineering in future ", "what all opportunities will a biomedical engineer get" ,"what is the use of biomedical engineer in b.tech","what all things does a biomedical engineer use to make"],
+         "responses" : ["Biomedical engineering or medical engineering is the application of engineering principles and design concepts to medicine and biology for healthcare purpose. This field seeks to close the gap between engineering and medicine, combining the design and problem-solving skills of engineering with medical biological sciences to advance health care treatment, including diagnosis, monitoring, and therapy. Also included under the scope of a biomedical engineer is the management of current medical equipment in hospitals while adhering to relevant industry standards. This involves making equipment recommendations, procurement, routine testing, and preventive maintenance, a role also known as a Biomedical Equipment Technician or as clinical engineering. There is huge scope in this field as now a days and in future all the hospitals are getting smarter and smarter by using advance medical machines which are made by these engineer. Now a days almost all the problems related to health can be treated with the help of these machines."],
+         "context_set" : ""
+        },
+        {"tag" : "biomedical topics",
+         "patterns" : ["what all topics will be covered in biomedical engineering", "what all a student will learn in biomedical engineering", "tell me topics covered in biomedical engineering"],
+         "responses" : ["In biomedical engineering students use to study about Physics, Chemistry, Mathematics, Biology, Life sciences, Material Sciences and Bio-Mechanics. In this course a student who is pursueing this course will get to learn about programming and electronics."],
+         "context_set" : ""
+        },
+        {"tag" : "core values",
+         "patterns" : ["What are the core values that students will get to learn during course", "What are the core values taught during the course","What are the core values that student will learn during the course"],
+         "responses" : ["During the course students will adapt core values like Loyalty, Passion, Honesty, and reliability."],
+         "context_set" : ""
+        },
+        {"tag" : "foreign",
+         "patterns" : ["Which foreign languages are taught during the course", "Name all the foreign languages which a student can study", "is it compulsory to take a foreign language during the course", "how will this foreign language help a student in future"],
+         "responses" : ["Taking a foreign language during the course is compulsory here in amity. Learning a foreign language during the course will add a extra advantage to the students profile. A student can work here in India as well as in abroad after learning a foreign language. A student can have a great career if he knows a foreign language. There are many options available for a student to opt for like German, French, Korean, Japanies, Russian etc. A student can opt for any one language out of these. Here in amity we also provide a three year certification to the student that denotes that a student has sucessfully completed his or her course and he or she can fluently speak a foreign language "],
+         "context_set" : ""
+        },
+        {"tag" : "open elective",
+         "patterns" : ["Is it compulsory to take a subject in open elective", "Name open elective subjects", "how will open elective help a student in future"],
+         "responses" : ["Opting for a open elective subject during the course is compulsory here in amity. The main purpose for making a student to learn his or her favorite subject as a open elective is to make a student to learn some more new skills and different skills other then his or her main course subject. Here at Amity we believe that having a extra skill is always beneficial for a student. A student can select any subject related to sports, engineering, law, entrepreneurship, etc. It does not matter that a student has his or her major subject related to it or not and if he or she knows anything about this subject or not. This is a three years course where a student will get a deep knowledge about his or her choosen subject and he or she will also get a minor degree which denotes that the student has sucessfully completed his course related to open elective and he or she has a deep knowledge about that subject. "]
+
+        },
+        {"tag":"shop",
+         "patterns":["Id like to buy something","whats on the menu","what do you reccommend?","could i get something"],
+         "responses":["we sell chocolate chip cookies for $2!","cookies are on the menue!"],
+         "context_set": ""
+        }
+        
+        
+
+   ]
+}
