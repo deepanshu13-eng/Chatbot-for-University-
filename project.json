@@ -105,12 +105,8 @@
          "patterns" : ["Is it compulsory to take a subject in open elective", "Name open elective subjects", "how will open elective help a student in future"],
          "responses" : ["Opting for a open elective subject during the course is compulsory here in amity. The main purpose for making a student to learn his or her favorite subject as a open elective is to make a student to learn some more new skills and different skills other then his or her main course subject. Here at Amity we believe that having a extra skill is always beneficial for a student. A student can select any subject related to sports, engineering, law, entrepreneurship, etc. It does not matter that a student has his or her major subject related to it or not and if he or she knows anything about this subject or not. This is a three years course where a student will get a deep knowledge about his or her choosen subject and he or she will also get a minor degree which denotes that the student has sucessfully completed his course related to open elective and he or she has a deep knowledge about that subject. "]
 
-        },
-        {"tag":"shop",
-         "patterns":["Id like to buy something","whats on the menu","what do you reccommend?","could i get something"],
-         "responses":["we sell chocolate chip cookies for $2!","cookies are on the menue!"],
-         "context_set": ""
         }
+        
         
         
 
